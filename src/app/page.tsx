@@ -161,6 +161,16 @@ export default function Home() {
         <HeaderSmall text="Builder.io desktop result" />
         <Builder />
       </div>
+
+      <footer className="bg-white">
+        <div className="mx-auto px-6 pb-8 pt-8 sm:pt-24 lg:px-8">
+          <div className=" border-t border-gray-900/10 pt-8">
+            <p className="text-pretty text-lg font-medium text-gray-500">
+              P.S. Also I use github Copilot for everyday codding.
+            </p>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
